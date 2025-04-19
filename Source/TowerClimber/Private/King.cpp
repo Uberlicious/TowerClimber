@@ -13,8 +13,8 @@ AKing::AKing()
 {
    SpringArmComponent = CreateDefaultSubobject<USpringArmComponent>("Spring Arm");
    SpringArmComponent->SetupAttachment(GetCapsuleComponent());
-   SpringArmComponent->TargetArmLength = 600.f;
-   SpringArmComponent->SetWorldRotation(FRotator(-10, -90, 0));
+   SpringArmComponent->TargetArmLength = 800.f;
+   SpringArmComponent->SetWorldRotation(FRotator(0, -90, 0));
    
    CameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
    CameraComponent->SetupAttachment(SpringArmComponent);

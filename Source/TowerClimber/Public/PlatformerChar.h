@@ -13,5 +13,6 @@ UCLASS()
 class TOWERCLIMBER_API APlatformerChar : public APaperZDCharacter
 {
 	GENERATED_BODY()
-
+public:
+	APlatformerChar();
 };
